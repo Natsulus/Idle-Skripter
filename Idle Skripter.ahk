@@ -32,7 +32,7 @@ If not A_IsAdmin ;force the script to run as admin
 ;=== Global Variables ===
 ;========================
 
-Global DebugMode := true
+Global DebugMode := false
 
 ; Search & Offset
 Global ImageSearchVariance := 0
@@ -718,6 +718,7 @@ ContainsDuplicate(array) {
 }
 
 ;===Hotkeys===
+
 F2::
 {
 	Running := "None"
