@@ -1,0 +1,1490 @@
+[
+    {
+        "bonusType": "STR Exp Chance",
+        "finalBonus": 40,
+        "initialBonus": 2,
+        "name": "Mushroom",
+        "position": {
+            "Page": 1,
+            "X": 1,
+            "Y": 1
+        },
+        "zone": "Grasslands"
+    },
+    {
+        "bonusType": "END Exp Chance",
+        "finalBonus": 40,
+        "initialBonus": 2,
+        "name": "Slime",
+        "position": {
+            "Page": 1,
+            "X": 2,
+            "Y": 1
+        },
+        "zone": "Grasslands"
+    },
+    {
+        "bonusType": "Healing from Heal Skill",
+        "finalBonus": 100,
+        "initialBonus": 5,
+        "name": "Stumpo",
+        "position": {
+            "Page": 1,
+            "X": 3,
+            "Y": 1
+        },
+        "zone": "Grasslands"
+    },
+    {
+        "bonusType": "MIN Exp Chance",
+        "finalBonus": 40,
+        "initialBonus": 2,
+        "name": "Rogue Rock",
+        "position": {
+            "Page": 1,
+            "X": 4,
+            "Y": 1
+        },
+        "zone": "Grasslands"
+    },
+    {
+        "bonusType": "Accuracy",
+        "finalBonus": 60,
+        "initialBonus": 3,
+        "name": "Shrubbery",
+        "position": {
+            "Page": 1,
+            "X": 5,
+            "Y": 1
+        },
+        "zone": "Grasslands"
+    },
+    {
+        "bonusType": "Monster DMG Reduction",
+        "finalBonus": 8,
+        "initialBonus": "0.4",
+        "name": "Snail",
+        "position": {
+            "Page": 1,
+            "X": 6,
+            "Y": 1
+        },
+        "zone": "Grasslands"
+    },
+    {
+        "bonusType": "ATT Exp Chance",
+        "finalBonus": 40,
+        "initialBonus": 2,
+        "name": "Flowey",
+        "position": {
+            "Page": 1,
+            "X": 7,
+            "Y": 1
+        },
+        "zone": "Grasslands"
+    },
+    {
+        "bonusType": "CLAW Skill Damage",
+        "finalBonus": 100,
+        "initialBonus": 5,
+        "name": "Relic Squid",
+        "position": {
+            "Page": 1,
+            "X": 8,
+            "Y": 1
+        },
+        "zone": "Grasslands"
+    },
+    {
+        "bonusType": "SMT Exp from Crafting",
+        "finalBonus": 40,
+        "initialBonus": 2,
+        "name": "Wormie",
+        "position": {
+            "Page": 1,
+            "X": 9,
+            "Y": 1
+        },
+        "zone": "Grasslands"
+    },
+    {
+        "bonusType": "Card Drop Chance",
+        "finalBonus": 40,
+        "initialBonus": 2,
+        "name": "Monkey",
+        "position": {
+            "Page": 1,
+            "X": 10,
+            "Y": 1
+        },
+        "zone": "Grasslands"
+    },
+    {
+        "bonusType": "Healing from Food",
+        "finalBonus": 100,
+        "initialBonus": 5,
+        "name": "Strawby",
+        "position": {
+            "Page": 1,
+            "X": 11,
+            "Y": 1
+        },
+        "zone": "Grasslands"
+    },
+    {
+        "bonusType": "Total Health",
+        "finalBonus": 80,
+        "initialBonus": 4,
+        "name": "Bored Bean",
+        "position": {
+            "Page": 1,
+            "X": 12,
+            "Y": 1
+        },
+        "zone": "Grasslands"
+    },
+    {
+        "bonusType": "Idle Attack Speed",
+        "finalBonus": 100,
+        "initialBonus": 5,
+        "name": "Plain",
+        "position": {
+            "Page": 1,
+            "X": 13,
+            "Y": 1
+        },
+        "zone": "Grasslands"
+    },
+    {
+        "bonusType": "Idle Attack DMG",
+        "finalBonus": 100,
+        "initialBonus": 5,
+        "name": "Disciple Y",
+        "position": {
+            "Page": 1,
+            "X": 14,
+            "Y": 1
+        },
+        "zone": "Grasslands"
+    },
+    {
+        "bonusType": "Ores from Mining",
+        "finalBonus": 80,
+        "initialBonus": 4,
+        "name": "Keymaster Y",
+        "position": {
+            "Page": 1,
+            "X": 15,
+            "Y": 1
+        },
+        "zone": "Grasslands"
+    },
+    {
+        "bonusType": "Rift Exp",
+        "finalBonus": 100,
+        "initialBonus": 5,
+        "name": "Grasslands Glitch",
+        "position": {
+            "Page": 1,
+            "X": 1,
+            "Y": 2
+        },
+        "zone": "Grasslands"
+    },
+    {
+        "bonusType": "SPI Exp Chance",
+        "finalBonus": 60,
+        "initialBonus": 3,
+        "name": "Potted Sand",
+        "position": {
+            "Page": 1,
+            "X": 1,
+            "Y": 3
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "Critical Chance",
+        "finalBonus": 10,
+        "initialBonus": "0.5",
+        "name": "Cacto",
+        "position": {
+            "Page": 1,
+            "X": 2,
+            "Y": 3
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "SUM Exp Chance",
+        "finalBonus": 60,
+        "initialBonus": 3,
+        "name": "Potted Pot",
+        "position": {
+            "Page": 1,
+            "X": 3,
+            "Y": 3
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "Accuracy",
+        "finalBonus": 80,
+        "initialBonus": 4,
+        "name": "Dung Ball",
+        "position": {
+            "Page": 1,
+            "X": 4,
+            "Y": 3
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "Monster DMG Reduction",
+        "finalBonus": 12,
+        "initialBonus": "0.6",
+        "name": "Dung Beetle",
+        "position": {
+            "Page": 1,
+            "X": 5,
+            "Y": 3
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "Monster Cash",
+        "finalBonus": 200,
+        "initialBonus": 10,
+        "name": "Yellow PHat",
+        "position": {
+            "Page": 1,
+            "X": 6,
+            "Y": 3
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "ATT Exp Chance",
+        "finalBonus": 60,
+        "initialBonus": 3,
+        "name": "Quicksand",
+        "position": {
+            "Page": 1,
+            "X": 7,
+            "Y": 3
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "Idle Attack Speed",
+        "finalBonus": 100,
+        "initialBonus": 5,
+        "name": "Tornado",
+        "position": {
+            "Page": 1,
+            "X": 8,
+            "Y": 3
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "Cultist Efficiency",
+        "finalBonus": 100,
+        "initialBonus": 5,
+        "name": "Coco",
+        "position": {
+            "Page": 1,
+            "X": 9,
+            "Y": 3
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "Acolyte Efficiency",
+        "finalBonus": 100,
+        "initialBonus": 5,
+        "name": "Nutto",
+        "position": {
+            "Page": 1,
+            "X": 10,
+            "Y": 3
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "END Exp Chance",
+        "finalBonus": 60,
+        "initialBonus": 3,
+        "name": "Wurm",
+        "position": {
+            "Page": 1,
+            "X": 11,
+            "Y": 3
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "MIN Exp Gained",
+        "finalBonus": 60,
+        "initialBonus": 3,
+        "name": "Sand Jelly",
+        "position": {
+            "Page": 1,
+            "X": 12,
+            "Y": 3
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "Raid Drop Luck",
+        "finalBonus": 100,
+        "initialBonus": 5,
+        "name": "Bandit Bob",
+        "position": {
+            "Page": 1,
+            "X": 13,
+            "Y": 3
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "CLAW Skill Damage",
+        "finalBonus": 140,
+        "initialBonus": 7,
+        "name": "Deadly Trap",
+        "position": {
+            "Page": 1,
+            "X": 14,
+            "Y": 3
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "Card Drop Chance",
+        "finalBonus": 60,
+        "initialBonus": 3,
+        "name": "Dryic Relic",
+        "position": {
+            "Page": 1,
+            "X": 15,
+            "Y": 3
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "STR Exp Chance",
+        "finalBonus": 60,
+        "initialBonus": 3,
+        "name": "Mirage Slime",
+        "position": {
+            "Page": 1,
+            "X": 1,
+            "Y": 4
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "MIN Exp Chance",
+        "finalBonus": 60,
+        "initialBonus": 3,
+        "name": "Mappy",
+        "position": {
+            "Page": 1,
+            "X": 2,
+            "Y": 4
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "Ores from Mining",
+        "finalBonus": 100,
+        "initialBonus": 5,
+        "name": "Spade",
+        "position": {
+            "Page": 1,
+            "X": 3,
+            "Y": 4
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "Souls Kept After Ascending",
+        "finalBonus": 20,
+        "initialBonus": 1,
+        "name": "Treasure",
+        "position": {
+            "Page": 1,
+            "X": 4,
+            "Y": 4
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "Trinket Efficiency",
+        "finalBonus": 100,
+        "initialBonus": 5,
+        "name": "Mimic",
+        "position": {
+            "Page": 1,
+            "X": 5,
+            "Y": 4
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "Healing from Food",
+        "finalBonus": 120,
+        "initialBonus": 6,
+        "name": "Desert Drink",
+        "position": {
+            "Page": 1,
+            "X": 6,
+            "Y": 4
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "SMT Exp from Crafting",
+        "finalBonus": 60,
+        "initialBonus": 3,
+        "name": "Zombie Bob",
+        "position": {
+            "Page": 1,
+            "X": 7,
+            "Y": 4
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "Rift Exp",
+        "finalBonus": 140,
+        "initialBonus": 7,
+        "name": "Sand Rattler",
+        "position": {
+            "Page": 1,
+            "X": 8,
+            "Y": 4
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "Critical Damage",
+        "finalBonus": 160,
+        "initialBonus": 8,
+        "name": "A Monster",
+        "position": {
+            "Page": 1,
+            "X": 9,
+            "Y": 4
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "Idle Attack DMG",
+        "finalBonus": 120,
+        "initialBonus": 6,
+        "name": "Stripe",
+        "position": {
+            "Page": 1,
+            "X": 10,
+            "Y": 4
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "Trinket Efficiency",
+        "finalBonus": 100,
+        "initialBonus": 5,
+        "name": "Unacceptable",
+        "position": {
+            "Page": 1,
+            "X": 11,
+            "Y": 4
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "Monster Cash",
+        "finalBonus": 240,
+        "initialBonus": 12,
+        "name": "Desert Baron",
+        "position": {
+            "Page": 1,
+            "X": 12,
+            "Y": 4
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "SPI Exp Chance",
+        "finalBonus": 60,
+        "initialBonus": 3,
+        "name": "Disciple B",
+        "position": {
+            "Page": 1,
+            "X": 13,
+            "Y": 4
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "Base Damage",
+        "finalBonus": 100,
+        "initialBonus": 5,
+        "name": "Keymaster B",
+        "position": {
+            "Page": 1,
+            "X": 14,
+            "Y": 4
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "Souls Kept After Ascending",
+        "finalBonus": 20,
+        "initialBonus": 1,
+        "name": "Desert Glitch",
+        "position": {
+            "Page": 1,
+            "X": 15,
+            "Y": 4
+        },
+        "zone": "Desert"
+    },
+    {
+        "bonusType": "Cultist Efficiency",
+        "finalBonus": 120,
+        "initialBonus": 6,
+        "name": "Flakey",
+        "position": {
+            "Page": 2,
+            "X": 1,
+            "Y": 1
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "SUM Exp Chance",
+        "finalBonus": 80,
+        "initialBonus": 4,
+        "name": "Snow Pot",
+        "position": {
+            "Page": 2,
+            "X": 2,
+            "Y": 1
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "Healing from Heal Skill",
+        "finalBonus": 200,
+        "initialBonus": 10,
+        "name": "Ice Cream",
+        "position": {
+            "Page": 2,
+            "X": 3,
+            "Y": 1
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "MIN Exp Gained",
+        "finalBonus": 80,
+        "initialBonus": 4,
+        "name": "Ice Rock",
+        "position": {
+            "Page": 2,
+            "X": 4,
+            "Y": 1
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "Accuracy",
+        "finalBonus": 100,
+        "initialBonus": 5,
+        "name": "Baby Goat",
+        "position": {
+            "Page": 2,
+            "X": 5,
+            "Y": 1
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "Acolyte Efficiency",
+        "finalBonus": 140,
+        "initialBonus": 7,
+        "name": "Snowballs",
+        "position": {
+            "Page": 2,
+            "X": 6,
+            "Y": 1
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "ATT Exp Chance",
+        "finalBonus": 80,
+        "initialBonus": 4,
+        "name": "Flakissimo",
+        "position": {
+            "Page": 2,
+            "X": 7,
+            "Y": 1
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "END Exp Chance",
+        "finalBonus": 80,
+        "initialBonus": 4,
+        "name": "Sickle",
+        "position": {
+            "Page": 2,
+            "X": 8,
+            "Y": 1
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "SPI Exp Chance",
+        "finalBonus": 80,
+        "initialBonus": 4,
+        "name": "Yeti",
+        "position": {
+            "Page": 2,
+            "X": 9,
+            "Y": 1
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "SMT Exp from Crafting",
+        "finalBonus": 80,
+        "initialBonus": 4,
+        "name": "Glouwey",
+        "position": {
+            "Page": 2,
+            "X": 10,
+            "Y": 1
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "Critical Damage",
+        "finalBonus": 180,
+        "initialBonus": 9,
+        "name": "Ice Jelly",
+        "position": {
+            "Page": 2,
+            "X": 11,
+            "Y": 1
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "Healing from Food",
+        "finalBonus": 160,
+        "initialBonus": 8,
+        "name": "Cool Drink",
+        "position": {
+            "Page": 2,
+            "X": 12,
+            "Y": 1
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "SUM Exp Chance",
+        "finalBonus": 80,
+        "initialBonus": 4,
+        "name": "Grow Goat",
+        "position": {
+            "Page": 2,
+            "X": 13,
+            "Y": 1
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "Monster Cash",
+        "finalBonus": 300,
+        "initialBonus": 15,
+        "name": "Blue PHat",
+        "position": {
+            "Page": 2,
+            "X": 14,
+            "Y": 1
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "Raid Drop Luck",
+        "finalBonus": 140,
+        "initialBonus": 7,
+        "name": "Snaps",
+        "position": {
+            "Page": 2,
+            "X": 15,
+            "Y": 1
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "CLAW Skill Damage",
+        "finalBonus": 180,
+        "initialBonus": 9,
+        "name": "Sea Monster",
+        "position": {
+            "Page": 2,
+            "X": 1,
+            "Y": 2
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "Ores from Mining",
+        "finalBonus": 140,
+        "initialBonus": 7,
+        "name": "Cylic Relic",
+        "position": {
+            "Page": 2,
+            "X": 2,
+            "Y": 2
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "Monster DMG Reduction",
+        "finalBonus": 16,
+        "initialBonus": "0.8",
+        "name": "Bloque",
+        "position": {
+            "Page": 2,
+            "X": 3,
+            "Y": 2
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "Base Damage",
+        "finalBonus": 120,
+        "initialBonus": 6,
+        "name": "Elder Goat",
+        "position": {
+            "Page": 2,
+            "X": 4,
+            "Y": 2
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "MIN Exp Chance",
+        "finalBonus": 80,
+        "initialBonus": 4,
+        "name": "Cold Slime",
+        "position": {
+            "Page": 2,
+            "X": 5,
+            "Y": 2
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "Idle Attack DMG",
+        "finalBonus": 140,
+        "initialBonus": 7,
+        "name": "Crystalline",
+        "position": {
+            "Page": 2,
+            "X": 6,
+            "Y": 2
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "SMT Exp from Crafting",
+        "finalBonus": 80,
+        "initialBonus": 4,
+        "name": "Frozen Bob",
+        "position": {
+            "Page": 2,
+            "X": 7,
+            "Y": 2
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "MIN Exp Gained",
+        "finalBonus": 80,
+        "initialBonus": 4,
+        "name": "Twostrip",
+        "position": {
+            "Page": 2,
+            "X": 8,
+            "Y": 2
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "Critical Chance",
+        "finalBonus": 20,
+        "initialBonus": 1,
+        "name": "Disciple R",
+        "position": {
+            "Page": 2,
+            "X": 9,
+            "Y": 2
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "Total Health",
+        "finalBonus": 160,
+        "initialBonus": 8,
+        "name": "Keymaster R",
+        "position": {
+            "Page": 2,
+            "X": 10,
+            "Y": 2
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "ATT Exp Chance",
+        "finalBonus": 140,
+        "initialBonus": 7,
+        "name": "Mountains Glitch",
+        "position": {
+            "Page": 2,
+            "X": 11,
+            "Y": 2
+        },
+        "zone": "Mountains"
+    },
+    {
+        "bonusType": "Rift Exp",
+        "finalBonus": 200,
+        "initialBonus": 10,
+        "name": "Soda",
+        "position": {
+            "Page": 2,
+            "X": 1,
+            "Y": 3
+        },
+        "zone": "The Mist"
+    },
+    {
+        "bonusType": "Acolyte Efficiency",
+        "finalBonus": 140,
+        "initialBonus": 7,
+        "name": "Sweetz",
+        "position": {
+            "Page": 2,
+            "X": 2,
+            "Y": 3
+        },
+        "zone": "The Mist"
+    },
+    {
+        "bonusType": "STR Exp Chance",
+        "finalBonus": 100,
+        "initialBonus": 5,
+        "name": "Verm",
+        "position": {
+            "Page": 2,
+            "X": 3,
+            "Y": 3
+        },
+        "zone": "The Mist"
+    },
+    {
+        "bonusType": "Idle Attack Speed",
+        "finalBonus": 200,
+        "initialBonus": 10,
+        "name": "Mist Mytes",
+        "position": {
+            "Page": 2,
+            "X": 4,
+            "Y": 3
+        },
+        "zone": "The Mist"
+    },
+    {
+        "bonusType": "Healing from Heal Skill",
+        "finalBonus": 300,
+        "initialBonus": 15,
+        "name": "Piglo",
+        "position": {
+            "Page": 2,
+            "X": 5,
+            "Y": 3
+        },
+        "zone": "The Mist"
+    },
+    {
+        "bonusType": "Cultist Efficiency",
+        "finalBonus": 140,
+        "initialBonus": 7,
+        "name": "Catsup",
+        "position": {
+            "Page": 2,
+            "X": 6,
+            "Y": 3
+        },
+        "zone": "The Mist"
+    },
+    {
+        "bonusType": "MIN Exp Chance",
+        "finalBonus": 100,
+        "initialBonus": 5,
+        "name": "Edgy Rock",
+        "position": {
+            "Page": 2,
+            "X": 7,
+            "Y": 3
+        },
+        "zone": "The Mist"
+    },
+    {
+        "bonusType": "Critical Chance",
+        "finalBonus": 28,
+        "initialBonus": "1.4",
+        "name": "Gordy",
+        "position": {
+            "Page": 2,
+            "X": 8,
+            "Y": 3
+        },
+        "zone": "The Mist"
+    },
+    {
+        "bonusType": "ATT Exp Chance",
+        "finalBonus": 100,
+        "initialBonus": 5,
+        "name": "Spinail",
+        "position": {
+            "Page": 2,
+            "X": 9,
+            "Y": 3
+        },
+        "zone": "The Mist"
+    },
+    {
+        "bonusType": "Raid Drop Luck",
+        "finalBonus": 180,
+        "initialBonus": 9,
+        "name": "Spectre Bob",
+        "position": {
+            "Page": 2,
+            "X": 10,
+            "Y": 3
+        },
+        "zone": "The Mist"
+    },
+    {
+        "bonusType": "SPI Exp Chance",
+        "finalBonus": 100,
+        "initialBonus": 5,
+        "name": "Octogon",
+        "position": {
+            "Page": 2,
+            "X": 11,
+            "Y": 3
+        },
+        "zone": "The Mist"
+    },
+    {
+        "bonusType": "Trinket Efficiency",
+        "finalBonus": 160,
+        "initialBonus": 8,
+        "name": "A Sea Monster",
+        "position": {
+            "Page": 2,
+            "X": 12,
+            "Y": 3
+        },
+        "zone": "The Mist"
+    },
+    {
+        "bonusType": "SUM Exp Chance",
+        "finalBonus": 100,
+        "initialBonus": 5,
+        "name": "Evil Dandy",
+        "position": {
+            "Page": 2,
+            "X": 13,
+            "Y": 3
+        },
+        "zone": "The Mist"
+    },
+    {
+        "bonusType": "Base Damage",
+        "finalBonus": 160,
+        "initialBonus": 8,
+        "name": "Squode",
+        "position": {
+            "Page": 2,
+            "X": 14,
+            "Y": 3
+        },
+        "zone": "The Mist"
+    },
+    {
+        "bonusType": "Critical Damage",
+        "finalBonus": 200,
+        "initialBonus": 10,
+        "name": "Hyper Jelly",
+        "position": {
+            "Page": 2,
+            "X": 15,
+            "Y": 3
+        },
+        "zone": "The Mist"
+    },
+    {
+        "bonusType": "Ores from Mining",
+        "finalBonus": 180,
+        "initialBonus": 9,
+        "name": "Totem Goop",
+        "position": {
+            "Page": 2,
+            "X": 1,
+            "Y": 3
+        },
+        "zone": "The Mist"
+    },
+    {
+        "bonusType": "Accuracy",
+        "finalBonus": 140,
+        "initialBonus": 7,
+        "name": "Mystism",
+        "position": {
+            "Page": 2,
+            "X": 2,
+            "Y": 3
+        },
+        "zone": "The Mist"
+    },
+    {
+        "bonusType": "Total Health",
+        "finalBonus": 240,
+        "initialBonus": 12,
+        "name": "Horizon",
+        "position": {
+            "Page": 2,
+            "X": 3,
+            "Y": 3
+        },
+        "zone": "The Mist"
+    },
+    {
+        "bonusType": "STR Exp Chance",
+        "finalBonus": 100,
+        "initialBonus": 5,
+        "name": "Disciple Z",
+        "position": {
+            "Page": 2,
+            "X": 4,
+            "Y": 3
+        },
+        "zone": "The Mist"
+    },
+    {
+        "bonusType": "Card Drop Chance",
+        "finalBonus": 100,
+        "initialBonus": 5,
+        "name": "Keymaster Z",
+        "position": {
+            "Page": 2,
+            "X": 5,
+            "Y": 3
+        },
+        "zone": "The Mist"
+    },
+    {
+        "bonusType": "MIN Exp Gained",
+        "finalBonus": 100,
+        "initialBonus": 5,
+        "name": "The Mist Glitch",
+        "position": {
+            "Page": 2,
+            "X": 6,
+            "Y": 3
+        },
+        "zone": "The Mist"
+    },
+    {
+        "bonusType": "CLAW Skill Damage",
+        "finalBonus": 400,
+        "initialBonus": 20,
+        "name": "Agent",
+        "position": {
+            "Page": 3,
+            "X": 1,
+            "Y": 1
+        },
+        "zone": "Dungeon"
+    },
+    {
+        "bonusType": "Trinket Efficiency",
+        "finalBonus": 200,
+        "initialBonus": 10,
+        "name": "Pot O Gold",
+        "position": {
+            "Page": 3,
+            "X": 2,
+            "Y": 1
+        },
+        "zone": "Dungeon"
+    },
+    {
+        "bonusType": "Cultist Efficiency",
+        "finalBonus": 160,
+        "initialBonus": 8,
+        "name": "Skelebob",
+        "position": {
+            "Page": 3,
+            "X": 3,
+            "Y": 1
+        },
+        "zone": "Dungeon"
+    },
+    {
+        "bonusType": "Monster DMG Reduction",
+        "finalBonus": 20,
+        "initialBonus": 1,
+        "name": "Lockhart",
+        "position": {
+            "Page": 3,
+            "X": 4,
+            "Y": 1
+        },
+        "zone": "Dungeon"
+    },
+    {
+        "bonusType": "Acolyte Efficiency",
+        "finalBonus": 160,
+        "initialBonus": 8,
+        "name": "Jelly Cube",
+        "position": {
+            "Page": 3,
+            "X": 5,
+            "Y": 1
+        },
+        "zone": "Dungeon"
+    },
+    {
+        "bonusType": "Ores from Mining",
+        "finalBonus": 240,
+        "initialBonus": 12,
+        "name": "Chaineran",
+        "position": {
+            "Page": 3,
+            "X": 6,
+            "Y": 1
+        },
+        "zone": "Dungeon"
+    },
+    {
+        "bonusType": "Healing from Food",
+        "finalBonus": 240,
+        "initialBonus": 12,
+        "name": "Chalice",
+        "position": {
+            "Page": 3,
+            "X": 7,
+            "Y": 1
+        },
+        "zone": "Dungeon"
+    },
+    {
+        "bonusType": "SMT Exp from Crafting",
+        "finalBonus": 140,
+        "initialBonus": 7,
+        "name": "Unlucky Lad",
+        "position": {
+            "Page": 3,
+            "X": 8,
+            "Y": 1
+        },
+        "zone": "Dungeon"
+    },
+    {
+        "bonusType": "Raid Drop Luck",
+        "finalBonus": 240,
+        "initialBonus": 12,
+        "name": "Mimicridon",
+        "position": {
+            "Page": 3,
+            "X": 9,
+            "Y": 1
+        },
+        "zone": "Dungeon"
+    },
+    {
+        "bonusType": "Base Damage",
+        "finalBonus": 200,
+        "initialBonus": 10,
+        "name": "Skaul",
+        "position": {
+            "Page": 3,
+            "X": 10,
+            "Y": 1
+        },
+        "zone": "Dungeon"
+    },
+    {
+        "bonusType": "Critical Damage",
+        "finalBonus": 300,
+        "initialBonus": 15,
+        "name": "Rich Snake",
+        "position": {
+            "Page": 3,
+            "X": 11,
+            "Y": 1
+        },
+        "zone": "Dungeon"
+    },
+    {
+        "bonusType": "Souls Kept After Ascending",
+        "finalBonus": 40,
+        "initialBonus": 2,
+        "name": "Trap Mach",
+        "position": {
+            "Page": 3,
+            "X": 12,
+            "Y": 1
+        },
+        "zone": "Dungeon"
+    },
+    {
+        "bonusType": "Idle Attack Speed",
+        "finalBonus": 300,
+        "initialBonus": 15,
+        "name": "Munnies",
+        "position": {
+            "Page": 3,
+            "X": 13,
+            "Y": 1
+        },
+        "zone": "Dungeon"
+    },
+    {
+        "bonusType": "Idle Attack DMG",
+        "finalBonus": 300,
+        "initialBonus": 15,
+        "name": "Holy Relic",
+        "position": {
+            "Page": 3,
+            "X": 14,
+            "Y": 1
+        },
+        "zone": "Dungeon"
+    },
+    {
+        "bonusType": "Critical Chance",
+        "finalBonus": 40,
+        "initialBonus": 2,
+        "name": "Thx",
+        "position": {
+            "Page": 3,
+            "X": 15,
+            "Y": 1
+        },
+        "zone": "Dungeon"
+    },
+    {
+        "bonusType": "Total Damage",
+        "finalBonus": 200,
+        "initialBonus": 10,
+        "name": "Noob",
+        "position": {
+            "Page": 3,
+            "X": 1,
+            "Y": 2
+        },
+        "zone": "Dungeon"
+    },
+    {
+        "bonusType": "Trinket Efficiency",
+        "finalBonus": 300,
+        "initialBonus": 15,
+        "name": "King X",
+        "position": {
+            "Page": 3,
+            "X": 1,
+            "Y": 3
+        },
+        "zone": "Raid"
+    },
+    {
+        "bonusType": "Total Health",
+        "finalBonus": 500,
+        "initialBonus": 25,
+        "name": "King Y",
+        "position": {
+            "Page": 3,
+            "X": 2,
+            "Y": 3
+        },
+        "zone": "Raid"
+    },
+    {
+        "bonusType": "Total Damage",
+        "finalBonus": 400,
+        "initialBonus": 20,
+        "name": "King Z",
+        "position": {
+            "Page": 3,
+            "X": 3,
+            "Y": 3
+        },
+        "zone": "Raid"
+    },
+    {
+        "bonusType": "Critical Damage",
+        "finalBonus": 400,
+        "initialBonus": 20,
+        "name": "Entertainer X",
+        "position": {
+            "Page": 3,
+            "X": 4,
+            "Y": 3
+        },
+        "zone": "Raid"
+    },
+    {
+        "bonusType": "Base Damage",
+        "finalBonus": 400,
+        "initialBonus": 20,
+        "name": "Entertainer Y",
+        "position": {
+            "Page": 3,
+            "X": 5,
+            "Y": 3
+        },
+        "zone": "Raid"
+    },
+    {
+        "bonusType": "Monster Cash",
+        "finalBonus": 1200,
+        "initialBonus": 60,
+        "name": "Entertainer Z",
+        "position": {
+            "Page": 3,
+            "X": 6,
+            "Y": 3
+        },
+        "zone": "Raid"
+    },
+    {
+        "bonusType": "Monster DMG Reduction",
+        "finalBonus": 60,
+        "initialBonus": 3,
+        "name": "Sentinel X",
+        "position": {
+            "Page": 3,
+            "X": 7,
+            "Y": 3
+        },
+        "zone": "Raid"
+    },
+    {
+        "bonusType": "Idle Attack DMG",
+        "finalBonus": 500,
+        "initialBonus": 25,
+        "name": "Sentinel Y",
+        "position": {
+            "Page": 3,
+            "X": 8,
+            "Y": 3
+        },
+        "zone": "Raid"
+    },
+    {
+        "bonusType": "Gains on All Screens",
+        "finalBonus": 10,
+        "initialBonus": "0.5",
+        "name": "Sentinel Z",
+        "position": {
+            "Page": 3,
+            "X": 9,
+            "Y": 3
+        },
+        "zone": "Raid"
+    },
+    {
+        "bonusType": "Base Damage",
+        "finalBonus": 600,
+        "initialBonus": 30,
+        "name": "Demon X",
+        "position": {
+            "Page": 3,
+            "X": 10,
+            "Y": 3
+        },
+        "zone": "Raid"
+    },
+    {
+        "bonusType": "Total Damage",
+        "finalBonus": 700,
+        "initialBonus": 35,
+        "name": "Demon Y",
+        "position": {
+            "Page": 3,
+            "X": 11,
+            "Y": 3
+        },
+        "zone": "Raid"
+    },
+    {
+        "bonusType": "Gains on All Screens",
+        "finalBonus": 20,
+        "initialBonus": 1,
+        "name": "Demon Z",
+        "position": {
+            "Page": 3,
+            "X": 12,
+            "Y": 3
+        },
+        "zone": "Raid"
+    },
+    {
+        "bonusType": "Souls Kept After Ascending",
+        "finalBonus": 20,
+        "initialBonus": 1,
+        "name": "Secretkeeper",
+        "position": {
+            "Page": 3,
+            "X": 1,
+            "Y": 4
+        },
+        "zone": "Special"
+    },
+    {
+        "bonusType": "Raid Drop Luck",
+        "finalBonus": 40,
+        "initialBonus": 2,
+        "name": "Spooktober",
+        "position": {
+            "Page": 3,
+            "X": 2,
+            "Y": 4
+        },
+        "zone": "Event"
+    },
+    {
+        "bonusType": "Card Drop Chance",
+        "finalBonus": 40,
+        "initialBonus": 2,
+        "name": "Golden Turkey",
+        "position": {
+            "Page": 3,
+            "X": 3,
+            "Y": 4
+        },
+        "zone": "Event"
+    }
+]
