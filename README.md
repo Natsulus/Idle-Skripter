@@ -26,7 +26,7 @@ Current Version: 0.0.1
 
 **Q**: I get a "Could Not Find Menu Button" message, what do I do?
 
-**A**: The script searches for Menu.png on the screen and uses that to find the top left of the game. Image Searching requires relatively precise matching. This issue is can be caused by an incompatable aspect ratio or a scaling factor. Please do the following:
+**A**: The script searches for Menu.png on the screen and uses that to find the top left of the game. Image Searching requires relatively precise matching. This issue can be caused by an incompatable aspect ratio or a scaling factor. Please do the following:
 - Menu.png is in same folder as the script
 - Menu Button in the Game should be visible
 - Set Browser Zoom to 100%
