@@ -224,7 +224,7 @@ CreateGUI()
 	Gui, Main: Add, Text, +Wrap w220, 
 	Gui, Main: Add, Text, +Wrap w220, 
 	Gui, Main: Add, Text, +Wrap w220, 
-	Gui, Main: Add, Text, +Wrap w220, Current Version: v0.0.1
+	Gui, Main: Add, Text, +Wrap w220, Current Version: v0.1.0
 	
 	
 	Gui, Main: Show, Center, Idle Skripter
