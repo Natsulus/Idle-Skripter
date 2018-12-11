@@ -83,6 +83,8 @@ Initialise()
 Initialise() {
 	LoadCards()
 	LoadDecks()
+	CardList := JoinArray(Cards, "|", "name")
+	DeckList := JoinArray(Decks, "|", "name")
 	LoadINI()
 	SetTimer, GUICheck, 500
 }
@@ -95,8 +97,6 @@ GUICheck()
 
 RunStart()
 {
-	CardList := JoinArray(Cards, "|", "name")
-	DeckList := JoinArray(Decks, "|", "name")
 	CreateGUI()
 	WinWait,Idle Skripter
 	WinWaitClose, Idle Skripter
@@ -390,22 +390,18 @@ CreateDeck(Option) {
 	if (check) {
 		MsgBox,, Duplicate Detected, % "Duplicate " . Cards[check].name . " Card Detected`nPlease Change Duplicate Cards"
 	} else {
+		NewDeck := new Deck(DeckCreatorDeckName, DeckCreatorDeckCards)
 		if (Option = "Create") {
-			NewDeck := new Deck(DeckCreatorDeckName, DeckCreatorDeckCards)
-			GuiControl, Main:, DeckListBox, %DeckCreatorDeckName%
 			Decks.Push(NewDeck)
-			SaveDecks()
-			Gui, Main: -Disabled
-			Gui DeckCreator: Destroy
+			GuiControl, Main:, DeckListBox, %DeckCreatorDeckName%
 		} else {
-			NewDeck := new Deck(DeckCreatorDeckName, DeckCreatorDeckCards)
 			Decks[DeckListBox] := NewDeck
 			DeckList := JoinArray(Decks, "|", "name")
 			GuiControl, Main:, DeckListBox, |%DeckList%
-			SaveDecks()
-			Gui, Main: -Disabled
-			Gui DeckCreator: Destroy
 		}
+		SaveDecks()
+		Gui, Main: -Disabled
+		Gui DeckCreator: Destroy
 	}
 }
 

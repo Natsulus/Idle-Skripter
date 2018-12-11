@@ -21,3 +21,14 @@ Current Version: 0.0.1
 - F2: Stop Looping Scripts (e.g. Auto Advance), does not stop non-looping scripts (e.g. Unequip Cards)
 - F3: Reloads the Script
 - Esc: Exit Script, use for quick close or if script gets you stuck due to a bug.
+
+## FAQs
+
+**Q**: I get a "Could Not Find Menu Button" message, what do I do?
+
+**A**: The script searches for Menu.png on the screen and uses that to find the top left of the game. Image Searching requires relatively precise matching. This issue is can be caused by an incompatable aspect ratio or a scaling factor. Please do the following:
+- Menu.png is in same folder as the script
+- Menu Button in the Game should be visible
+- Set Browser Zoom to 100%
+- Set (Windows) DPI Scaling to 100%
+- Set Game Zoom to 100% (Right-Click the Game)
