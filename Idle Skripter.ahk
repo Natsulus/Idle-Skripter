@@ -224,7 +224,7 @@ CreateGUI()
 	Gui, Main: Add, Text, +Wrap w220, 
 	Gui, Main: Add, Text, +Wrap w220, 
 	Gui, Main: Add, Text, +Wrap w220, 
-	Gui, Main: Add, Text, +Wrap w220, Current Version: v0.1.0
+	Gui, Main: Add, Text, +Wrap w220, Current Version: v0.1.1
 	
 	
 	Gui, Main: Show, Center, Idle Skripter
@@ -271,7 +271,6 @@ CreateGUI()
 	return
 	
 	CreateDeck:
-	
 	OpenDeckCreator("Create")
 	return
 	
@@ -393,12 +392,11 @@ CreateDeck(Option) {
 		NewDeck := new Deck(DeckCreatorDeckName, DeckCreatorDeckCards)
 		if (Option = "Create") {
 			Decks.Push(NewDeck)
-			GuiControl, Main:, DeckListBox, %DeckCreatorDeckName%
 		} else {
 			Decks[DeckListBox] := NewDeck
-			DeckList := JoinArray(Decks, "|", "name")
-			GuiControl, Main:, DeckListBox, |%DeckList%
 		}
+		DeckList := JoinArray(Decks, "|", "name")
+		GuiControl, Main:, DeckListBox, |%DeckList%
 		SaveDecks()
 		Gui, Main: -Disabled
 		Gui DeckCreator: Destroy
