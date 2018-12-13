@@ -2,7 +2,7 @@
 
 Idle Skripter is a WIP AHK Script for the Idle/Incremental Game, Idle Skilling.
 
-Current Version: 0.0.1
+Current Version: 0.1.1
 
 ## Features
 

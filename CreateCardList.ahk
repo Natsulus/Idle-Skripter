@@ -997,32 +997,32 @@ positions.Push(pos)
 
 pos := {}
 pos.X := 1
-pos.Y := 3
+pos.Y := 4
 pos.Page := 2
 positions.Push(pos)
 pos := {}
 pos.X := 2
-pos.Y := 3
+pos.Y := 4
 pos.Page := 2
 positions.Push(pos)
 pos := {}
 pos.X := 3
-pos.Y := 3
+pos.Y := 4 
 pos.Page := 2
 positions.Push(pos)
 pos := {}
 pos.X := 4
-pos.Y := 3
+pos.Y := 4
 pos.Page := 2
 positions.Push(pos)
 pos := {}
 pos.X := 5
-pos.Y := 3
+pos.Y := 4
 pos.Page := 2
 positions.Push(pos)
 pos := {}
 pos.X := 6
-pos.Y := 3
+pos.Y := 4
 pos.Page := 2
 positions.Push(pos)
 
