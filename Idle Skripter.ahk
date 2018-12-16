@@ -147,22 +147,17 @@ SetupOffsets() ; Defines TopLeftX and TopLeftY to be the top-left corner of the 
 	}
 	
 	WinGetPos,,,WinW,WinH
-	SearchFileName = Menu.png
+	SearchFileName = Swap.png
 	ImageSearch, SearchX, SearchY, 0, 0, %WinW%, %WinH%, *%ImageSearchVariance% *TransBlack %SearchFileName%
 		
 	If SearchX
 	{
 		TopLeftX := SearchX - 10
 		TopLeftY := SearchY - 10
-		;RelClick(400, 300)
-		;RelClick(400, 300)
-		;Sleep 500
-		;MouseMove, %TopLeftX%, %TopLeftY%
-		;MsgBox %TopLeftX% %TopLeftY%
 	}
 	else
 	{
-		MsgBox, Could Not Find Menu Button, please make sure the Menu Button is visible.
+		MsgBox, Could Not Find Swap Menu Button, please make sure the Swap Menu Button is visible.
 		ExitApp
 	}
 	
@@ -201,7 +196,6 @@ CreateGUI()
 		Gui, Main: Add, Button, xs+120 ys+60 w80 h25 Default, Exit
 	}
 	
-	GuiControl, Disable, Collect Drops
 	GuiControl, Disable, tbaButton1
 	GuiControl, Disable, tbaButton2
 	GuiControl, Disable, tbaButton3
@@ -456,7 +450,33 @@ AutoAdvance()
 
 CollectDrops()
 {	
-	Sleep 500
+	SetMouseDelay, 5
+	RelClick(305, 340)
+	RelClick(320, 340)
+	RelClick(335, 340)
+	RelClick(350, 340)
+	RelClick(365, 340)
+	RelClick(380, 340)
+	RelClick(395, 340)
+	RelClick(410, 340)
+	RelClick(425, 340)
+	RelClick(440, 340)
+	RelClick(455, 340)
+	RelClick(470, 340)
+	RelClick(485, 340)
+	RelClick(500, 340)
+	RelClick(515, 340)
+	RelClick(530, 340)
+	RelClick(545, 340)
+	RelClick(560, 340)
+	RelClick(575, 340)
+	RelClick(590, 340)
+	RelClick(605, 340)
+	RelClick(620, 340)
+	RelClick(635, 340)
+	RelClick(650, 340)
+	RelClick(665, 340)
+	Sleep 50
 }
 
 UnequipCards()
@@ -555,11 +575,6 @@ OnCardScreen()
 {
 }
 
-IsMenuOpen()
-{
-	;check for portal button?
-}
-
 ;===============================
 ;=== Screen Change Functions ===
 ;===============================
@@ -581,7 +596,8 @@ RelClick(X, Y) {
 	X += TopLeftX
 	Y += TopLeftY
 
-	MouseClick,, %X%, %Y%
+	;MouseClick,, %X%, %Y%
+	Click, %X%, %Y%
 	return
 }
 
