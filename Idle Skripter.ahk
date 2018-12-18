@@ -705,7 +705,7 @@ SaveDecks()
 
 LoadDecks()
 {
-	file := FileOpen("Decks.json", "r")
+	file := FileOpen("Data/Decks.json", "r")
 	if (file) {
 		str := file.Read()
 		file.Close()
