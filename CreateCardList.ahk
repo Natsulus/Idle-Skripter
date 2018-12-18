@@ -172,6 +172,8 @@ names.Push("Demon Z")
 names.Push("Secretkeeper")
 names.Push("Spooktober")
 names.Push("Golden Turkey")
+names.Push("Coal Buddy")
+names.Push("Waddles")
 
 bonusType.Push(14)
 bonusType.Push(11)
@@ -297,6 +299,8 @@ bonusType.Push(29)
 bonusType.Push(30)
 bonusType.Push(28)
 bonusType.Push(25)
+bonusType.Push(27)
+bonusType.Push(5)
 
 initialBonus.Push(2)
 initialBonus.Push(2)
@@ -422,6 +426,8 @@ initialBonus.Push(1)
 initialBonus.Push(1)
 initialBonus.Push(2)
 initialBonus.Push(2)
+initialBonus.Push(5)
+initialBonus.Push(12)
 
 finalBonus.Push(40)
 finalBonus.Push(40)
@@ -547,6 +553,8 @@ finalBonus.Push(20)
 finalBonus.Push(20)
 finalBonus.Push(40)
 finalBonus.Push(40)
+finalBonus.Push(100)
+finalBonus.Push(240)
 
 Global pos := {}
 ;Grasslands
@@ -1184,6 +1192,16 @@ pos.Page := 3
 positions.Push(pos)
 pos := {}
 pos.X := 3
+pos.Y := 4
+pos.Page := 3
+positions.Push(pos)
+pos := {}
+pos.X := 4
+pos.Y := 4
+pos.Page := 3
+positions.Push(pos)
+pos := {}
+pos.X := 5
 pos.Y := 4
 pos.Page := 3
 positions.Push(pos)

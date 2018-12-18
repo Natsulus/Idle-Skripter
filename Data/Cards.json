@@ -1486,5 +1486,29 @@
             "Y": 4
         },
         "zone": "Event"
+    },
+    {
+        "bonusType": "Ores from Mining",
+        "finalBonus": 100,
+        "initialBonus": 5,
+        "name": "Coal Buddy",
+        "position": {
+            "Page": 3,
+            "X": 4,
+            "Y": 4
+        },
+        "zone": "Event"
+    },
+    {
+        "bonusType": "CLAW Skill Damage",
+        "finalBonus": 240,
+        "initialBonus": 12,
+        "name": "Waddles",
+        "position": {
+            "Page": 3,
+            "X": 5,
+            "Y": 4
+        },
+        "zone": "Event"
     }
 ]
