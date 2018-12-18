@@ -1218,7 +1218,7 @@ CreateCards()
 SaveCards()
 {
 	str := JSON.Dump(Cards,,4)
-	file := FileOpen("Cards.json", "w")
+	file := FileOpen("Data/Cards.json", "w")
 	file.Write(str)
 	file.Close()
 }

@@ -46,6 +46,7 @@ Global GameWindowTitle := "Play Idle Skilling"
 ; Script Run-Time Data
 Global CurrentFunction
 Global OverallTimerStart
+Global RetryCount := 0
 
 ; GUI Control Variables
 Global TabList := 1
@@ -67,6 +68,9 @@ Global tbaButton3
 Global tbaButton4
 
 ; Data
+Global CurrentVersion
+Global LatestVersion
+Global NewVersion := false
 Global Cards := []
 Global Decks := []
 Global CardList := ""
@@ -83,9 +87,11 @@ Initialise()
 Initialise() {
 	LoadCards()
 	LoadDecks()
+	LoadVersion()
+	LoadINI()
+	CheckVersion()
 	CardList := JoinArray(Cards, "|", "name")
 	DeckList := JoinArray(Decks, "|", "name")
-	LoadINI()
 	SetTimer, GUICheck, 500
 }
 
@@ -147,7 +153,7 @@ SetupOffsets() ; Defines TopLeftX and TopLeftY to be the top-left corner of the 
 	}
 	
 	WinGetPos,,,WinW,WinH
-	SearchFileName = Swap.png
+	SearchFileName = Img/Swap.png
 	ImageSearch, SearchX, SearchY, 0, 0, %WinW%, %WinH%, *%ImageSearchVariance% *TransBlack %SearchFileName%
 		
 	If SearchX
@@ -218,7 +224,11 @@ CreateGUI()
 	Gui, Main: Add, Text, +Wrap w220, 
 	Gui, Main: Add, Text, +Wrap w220, 
 	Gui, Main: Add, Text, +Wrap w220, 
-	Gui, Main: Add, Text, +Wrap w220, Current Version: v0.1.1
+	if (NewVersion) {
+		Gui, Main: Add, Link, +Wrap w220, Current Version: %CurrentVersion% (<a href="https://github.com/Natsulus/Idle-Skripter">Update Available</a>)
+	} else {
+		Gui, Main: Add, Text, +Wrap w220, Current Version: %CurrentVersion%
+	}
 	
 	
 	Gui, Main: Show, Center, Idle Skripter
@@ -430,19 +440,25 @@ AutoAdvance()
 {	
 	WinActivate, %GameWindowTitle%
 	WinGetPos,,,WinW,WinH, %GameWindowTitle%
-	SearchFileName := "Right.png"
+	SearchFileName := "Img/Right.png"
 	ImageSearch, SearchX, SearchY, 0, 0, %WinW%, %WinH%, *%ImageSearchVariance% *TransBlack %SearchFileName%
 	
 	if (SearchX) {
 		SearchX += 20
 		SearchY += 20
 		Click, %SearchX%, %SearchY%
+		RetryCount := 0
 	} else {
-		SearchFileName := "Right Lock.png"
+		SearchFileName := "Img/Right Lock.png"
 		ImageSearch, SearchX, SearchY, 0, 0, %WinW%, %WinH%, *%ImageSearchVariance% *TransBlack %SearchFileName%
 		if (!SearchX) {
-			MsgBox, Reached End of Zone
-			Running := "None"
+			if (RetryCount < 5) {
+				RetryCount++
+			} else {
+				RetryCount := 0
+				MsgBox, Reached End of Zone
+				Running := "None"
+			}
 		}
 	}
 	Sleep 500
@@ -667,17 +683,9 @@ LoadINI()
 {
 }
 
-SaveDecks()
-{
-	str := JSON.Dump(Decks,,4)
-	file := FileOpen("Decks.json", "w")
-	file.Write(str)
-	file.Close()
-}
-
 LoadCards()
 {
-	file := FileOpen("Cards.json", "r")
+	file := FileOpen("Data/Cards.json", "r")
 	if (file) {
 		str := file.Read()
 		file.Close()
@@ -685,6 +693,14 @@ LoadCards()
 	} else {
 		file.Close()
 	}
+}
+
+SaveDecks()
+{
+	str := JSON.Dump(Decks,,4)
+	file := FileOpen("Data/Decks.json", "w")
+	file.Write(str)
+	file.Close()
 }
 
 LoadDecks()
@@ -698,6 +714,25 @@ LoadDecks()
 		file.Close()
 		SaveDecks()
 	}
+}
+
+LoadVersion() {
+	file := FileOpen("Data/version.txt", "r")
+	if (file) {
+		str := file.Read()
+		file.Close()
+		CurrentVersion := str
+	}
+}
+
+CheckVersion() {
+	whr := ComObjCreate("WinHttp.WinHttpRequest.5.1")
+	whr.Open("GET", "https://raw.githubusercontent.com/Natsulus/Idle-Skripter/master/Data/version.txt")
+	whr.Send()
+	whr.WaitForResponse()
+	LatestVersion := whr.ResponseText
+	if (CurrentVersion != LatestVersion)
+		NewVersion := true
 }
 
 ;===Custom Functions===
