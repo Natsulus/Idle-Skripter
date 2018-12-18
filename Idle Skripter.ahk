@@ -727,7 +727,7 @@ LoadVersion() {
 
 CheckVersion() {
 	whr := ComObjCreate("WinHttp.WinHttpRequest.5.1")
-	whr.Open("GET", "https://raw.githubusercontent.com/Natsulus/Idle-Skripter/master/Data/version.txt")
+	whr.Open("GET", "https://raw.githubusercontent.com/Natsulus/Idle-Skripter/master/Data/version.txt", true)
 	whr.Send()
 	whr.WaitForResponse()
 	LatestVersion := whr.ResponseText
