@@ -132,6 +132,11 @@ CheckGameWindow()
 		Browser := false
 		GameWindowTitle := "Adobe Flash Player"
 	}
+	else if WinExist("Idle Skilling")
+	{
+		Browser := false
+		GameWindowTitle := "Idle Skilling"
+	}
 }
 
 InitialiseScript()
